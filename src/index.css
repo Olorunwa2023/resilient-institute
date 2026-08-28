@@ -1,0 +1,113 @@
+/* ==============================
+   GLOBAL RESET
+================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ==============================
+   ROOT VARIABLES
+================================= */
+
+:root {
+  --primary-color: #1261c9;
+  --primary-dark: #0d4fa8;
+
+  --secondary-color: #e63946;
+  --secondary-dark: #c92f3b;
+
+  --dark-color: #102a56;
+  --text-color: #555555;
+  --light-text: #6b7280;
+
+  --white: #ffffff;
+  --light-bg: #f5f9ff;
+  --section-bg: #f8fafc;
+
+  --border-radius: 6px;
+  --card-radius: 12px;
+
+  --container-width: 1200px;
+
+  --transition: 0.3s ease;
+}
+
+
+/* ==============================
+   HTML
+================================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* ==============================
+   BODY
+================================= */
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--white);
+  line-height: 1.6;
+}
+
+
+/* ==============================
+   LINKS
+================================= */
+
+a {
+  color: inherit;
+}
+
+
+/* ==============================
+   IMAGES
+================================= */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* ==============================
+   BUTTONS
+================================= */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+/* ==============================
+   HEADINGS
+================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+
+/* ==============================
+   FORM ELEMENTS
+================================= */
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
