@@ -14,7 +14,7 @@ function Hero() {
           <br />
           Creating Opportunities.
           <br />
-          Driving Impact.
+          Driving Impact. 
         </h1>
 
         <p className="hero-description">
