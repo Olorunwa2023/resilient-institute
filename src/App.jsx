@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Founder from "./components/Founder";
-import WhyChooseUs from "./components/whychooseus";
+import WhyChooseUs from "./components/WhyChooseUs";
 import Courses from "./components/Courses";
 import Benefits from "./components/Benefits";
 import Footer from "./components/Footer";
